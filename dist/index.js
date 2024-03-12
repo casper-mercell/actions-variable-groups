@@ -15515,6 +15515,7 @@ async function retrieveFiles(group, ref) {
                 owner: org,
                 repo: repo,
                 path: group,
+                ref: ref,
             })
             return files
         } else {
